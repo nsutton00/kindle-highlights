@@ -6,7 +6,7 @@ var from_name = 'Kindle Highlights';
 var num_to_send = Math.floor(Math.random() * 5 + 1);
 var email_subject = 'Your kindle highlights for today';
 
-var snippet_tab_name = 'www.clippings.io';
+var snippet_tab_name = 'Highlights';
 
 //kick off function
 function main(){
