@@ -51,8 +51,8 @@ function getSnippets() {
       snippets[i] = ({
         title: range[i][0],
         author: range[i][1],
-        page: range[i][5],
-        snippet: range[i][6],
+        page: range[i][2],
+        snippet: range[i][3],
       })
     }
   }
