@@ -12,15 +12,15 @@ This script solves this by sending me a random (1-5) selection of highlights fro
 ## Set up 
 
 **Script set up**
-* Make a new Google Sheet. Make a tab named `www.clippings.io`.
+* Make a new Google Sheet. Make a tab named `Highlights`.
 *  Open 'tools' > 'script editor' from the menu bar.
 * Copy in the code from [kindle-highlights.gs](https://github.com/nsutton00/kindle-highlights/blob/main/kindle-highlights.gs "kindle-highlights.gs"). 
 *  Edit the first line variable 'email_to' to the email you want to receive the highlights.
 
 **Adding your highlights**
-* Get your clippings.txt file. There are a few ways to do this, check Google.
-* Use [clippings.io](https://www.clippings.io/) to transform your clippings.txt file into an excel.
-* Copy this excel into the `www.clippings.io` tab of the Google sheet.
+* You need to copy your highlights from the My Clippings.txt file into the Google sheet. Instructions on how to get the My Clippings.txt file can be found easily on Google.
+* Use [this python script](https://github.com/nsutton00/kindle-MyClippings-csv) to transform your My Clippings.txt file into a CSV. 
+* Copy this CSV into the `Highlights` tab of the Google sheet.
 * **Important:** do not copy the headers into your google sheet.
 
 ![Example of a properly setup sheet](https://github.com/nsutton00/kindle-highlights/blob/main/Google%20sheet.png)
